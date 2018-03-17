@@ -1,0 +1,13 @@
+img {
+    display: block;
+    margin: auto;
+}
+.textbox {
+    display: block;
+    margin: auto;
+}
+.buttons {
+    margin: auto;
+    width: 24%;
+    border: 3px solid green;
+}
