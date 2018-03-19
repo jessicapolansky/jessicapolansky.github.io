@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+header {
+    background-color: red;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    width: 100%;
+
+}
+#col1 {
+    margin: 10px 0 20px 0;
+    float: left;
+    align-self: flex-start;
+    background-color: blue;
+    width: 300px;
+}
+#col2 {    
+    align-self: flex-start;
+    margin: 10px 0 20px 10px;
+    background-color: green;
+    width: calc(100% - 310px);
+}
+
+footer {
+    padding-top: 10px;
+    background-color: black;
+    color: white;
+    clear:both;
+    width: 100%;
+    position:absolute;
+    bottom:0;
+
+}
+ul {
+    list-style-type: none;
+}
+li {
+    float: left;
+    padding-right: 20px;
+}

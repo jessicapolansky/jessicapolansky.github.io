@@ -1,0 +1,43 @@
+.modal-dialog {
+    border: 3px black solid;
+    background-color: white;    
+    width: 30%;
+    position: fixed;
+    z-index: 20;
+    margin-top: 200px;
+    box-shadow: 5px 8px #888888;
+    border-radius: 25px;
+    
+}
+section {
+    opacity: .5;
+}
+.modalmodal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+.modal-header {
+    background-color: lightgrey;
+    padding: 10px 0 5px 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    margin: auto;
+    text-align: center;
+    border-top-left-radius: 21px;
+    border-top-right-radius: 21px;
+}
+.modal-title {
+    color: white;
+    text-align: center;
+}
+.modal-content, .modal-buttons {
+    padding-left: 15px;
+}
+.modal-buttons {
+    padding-bottom: 10px;
+    
+}
