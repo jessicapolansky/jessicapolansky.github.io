@@ -1,0 +1,22 @@
+
+{% extends "base.html" %}
+
+{% block navbar %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+  <h1>About this Site</h1>
+  <p>This is a nonsensical site dedicated to the adorable, furry derps that live in my house. Hopefully you enjoyed it!</p>
+<form action="/form" method="POST">
+  <label for="">First Name</label>
+  <input type="text" name="first_name">
+  <br>
+  <label for="">Last Name</label>
+  <input type="text" name="last_name" required>
+  <br>
+  <label for="">Comments</label>
+  <input type="textarea"></input>
+<select name="option"><option value="opt1">Option1</option><option value="opt2">Option 2</option></select><br>
+<label for"">Email</label><input type="email"></input><button type="submit">Submit</button>
+</form>
+{% endblock %}

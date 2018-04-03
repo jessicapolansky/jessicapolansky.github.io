@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Need more info? Contact us!</h2>
+{% if error %}
+<h5>{{ error }}</h5>
+{% endif %}
+<form action="/form" method="POST">
+    <label for ="">Name</label>
+  <input type="text" name="name">
+  <br>
+    <label for ="">Email</label>
+  <input type='email' name='email'>
+  <br>
+  <input type = 'textarea'><br>
+<br>
+  <button type="submit">Submit</button>
+</form>
+
+{% endblock %}
